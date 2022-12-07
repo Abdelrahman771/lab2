@@ -1,1 +1,1 @@
-# lab2
+!(n3ama){https://www.google.com/search?q=ostrich&sxsrf=ALiCzsZVHKxPAhpd9kGgIzMwd2SxbTfTTg:1670422835880&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQlof-2ef7AhVMeMAKHX6mAM0Q_AUoAXoECAIQAw&biw=1350&bih=618&dpr=1#imgrc=W61tTJijq3cENM}
