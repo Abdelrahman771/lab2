@@ -26,6 +26,16 @@ jobs:
       - run:
           name: "say hi"
           command: "echo hi world"
+  
+  build:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - checkout
+      - run:
+          name: "an envar that is part of our project"
+          command: |
+            echo $my_first_env
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -36,5 +46,9 @@ workflows:
       - say-hi:
           requires:
             - say-hello
+  test-env-val:
+    jobs:
+      - build
+            
 
       
